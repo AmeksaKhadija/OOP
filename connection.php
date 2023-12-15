@@ -1,21 +1,16 @@
 <?php
 
-    class Connexion {
+private $servername = "localhost";
+private $username = "root";
+private $password = "";
+private $dbname= "youarticles";
 
-        private String $servename;
-        private String $username;
-        private String $password;
-        private String $dbname;
-        private PDO $conn;
-
-        protected function connect() {
-            $this->servename = "localhost";
-            $this->username = "root";
-            $this->password = "";
-            $this->dbname = "youarticles";
-            $this->conn = new PDO($this->servename , $this->username , $this->password , $this->dbname);
-            return $this->conn;
-        }
-    }
-    
+public function __construct() {
+try {
+  $conn = new PDO("mysql:host=$servername;dbname=youarticles", $username, $password);
+  $conn->exec('SET NAMES "UTF8"');
+} catch(PDOException $e) {
+  echo "Connection failed: " . $e->getMessage();
+}
+}
 ?>
