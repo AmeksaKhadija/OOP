@@ -11,4 +11,5 @@ class DatabaseConnection {
     }
   }
 }
+$databaseConnection = new DatabaseConnection();
 ?>
