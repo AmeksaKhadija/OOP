@@ -46,6 +46,12 @@ class Article extends Connection{
             }
         return $articles;
     }
+
+    public function deleteArticle($articleId){
+        $stmt = $this->connect()->prepare("DELETE FROM article WHERE id_article = :articleId");
+        $stmt->bindParam(':articleId', $articleId);
+        $stmt->execute();
+    }
 }
 
    

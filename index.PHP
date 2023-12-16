@@ -21,7 +21,6 @@
         </form>
     </div>
 
-    <!-- <button type="button" class="btna btna-primary">Ajouter</button> -->
   
    
         <table class="table">
@@ -52,8 +51,8 @@
 		         	  			<?php echo $article['date_de_creation']; ?>
 		         	  		</td>
                     <td>
-                      <a href="delet.php">Supprimer</a>
-                      <a href="editer.php">Éditer</a>
+                      <a href="delet.php?delete_id=<?php echo $article['id_article'];?>">Supprimer</a>
+                      <a href="editer.php?editer_id=<?php echo $article['id_article'];?>">Éditer</a>
                    </td>
                     </tr>
                      <?php 
