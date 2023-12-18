@@ -18,7 +18,18 @@ overload : les paramitres
 overriding : modification du function dans l'heritage
 
 
-expression /statement
+setters & getters :accesse et modifier
 try and catch : gestion des exeption 
 
 construct : methode magique 
+
+
+La POO repose sur 4 principes :
+
+-> L'encapsulation : L'encapsulation présente toutes les informations importantes d'un objet à l'intérieur de l'objet et n'expose que les informations choisies au monde    extérieur.
+
+-> L'abstraction : Il se produit lorsque l'utilisateur interagit uniquement avec des attributs et des méthodes sélectionnés d'un objet, en utilisant des outils de haut niveau simplifiés pour accéder à un objet complexe.
+
+-> L'héritage : L'héritage définit des relations hiérarchiques entre les classes, de sorte que les attributs et méthodes communs peuvent être réutilisés. 
+
+-> Le polymorphisme : Le polymorphisme consiste à concevoir des objets qui partagent des comportements, ce qui permet de traiter les objets de différentes manières. 

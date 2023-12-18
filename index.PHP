@@ -58,6 +58,5 @@
                </tboy>
            </table> 
 
-   <script src="form.js"></script>
 </body>
 </html>

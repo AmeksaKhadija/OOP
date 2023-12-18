@@ -32,6 +32,7 @@ class Article extends Connection{
         $stmt->bindparam(':date_de_creation',$date_de_creation);
         $stmt->bindparam(':id_user',$id_user);
 
+        // bindparam : pour  lier des valeurs à des paramètres dans une requête préparée, utilisé pour éviter les problèmes de sécurité tels que les injections SQL
 
         $stmt->execute();
     }
