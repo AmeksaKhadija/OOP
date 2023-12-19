@@ -1,4 +1,4 @@
-ce redmi correspondant ce qui j'ai compris dans ce breif (oop) : 
+ce redmi pour ce qui j'ai compris dans ce breif (oop) : 
 _ OOP : est un modéle de programmation qui repose sur le concepte de classes et objets .
 _ classe : c'est une template d'un objet 
 _ objet : c'est un instance d'un classe
@@ -14,16 +14,17 @@ _ visibility : public , pirvate , protected
 
 
 polymorphisme : overload /overriding
-overload : les paramitres
-overriding : modification du function dans l'heritage
+overload : bcp de methode de meme noms et de defferentes  paramètres 
+overriding :  modification du function dans l'heritage
 
 
-setters & getters :accesse et modifier
+setters : accesse & modification 
+getters :accesse & return
+
 try and catch : gestion des exeption 
 
-construct : methode magique 
-
-
+construct : methode magique première chode execute 
+abstract : on peux peux pas instancier un objet d'après un classe abstract , et on peux pas appelé une méthode abstract ssi il existe une méthode abstract .
 La POO repose sur 4 principes :
 
 -> L'encapsulation : L'encapsulation présente toutes les informations importantes d'un objet à l'intérieur de l'objet et n'expose que les informations choisies au monde    extérieur.
